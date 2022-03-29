@@ -79,3 +79,14 @@ http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/multipl
 ```
 http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/divide
 ```
+
+## Partie BONUS
+
+4/ Optional. Try different ResponseFormat and BodyStyle to compare the results you get.
+
+- ResponseFormat : par défaut, la réponse est donnée en XML. Cependant, lorsque le paramètre `WebMessageFormat.Json` est donné, la réponse devient du JSON.
+
+5/ Optional. Change the method of one of the OperationContract to POST. It will not work directly with your browser since typing an URL is a GET request, but you should be able to communicate with the server by using Postman.
+
+cf la partie Endpoints POST
+
