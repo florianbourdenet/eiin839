@@ -45,7 +45,7 @@ http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/divide?
 
 ### Endpoints POST
 
-Sur Postman, mettre dans le corps de la requête les paramètres ci-dessous :
+Sur Postman, mettre les paramètres ci-dessous dans le corps de la requête :
 
 ```json
 {
