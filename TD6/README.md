@@ -2,18 +2,23 @@
 
 ## Partie SOAP
 
+### Utilisation
+
 - Lancer le serveur SOAP [ici](./WCF_SOAP).
 - Lancer la solution de test présente dans le client SOAP [ici](./WCF_SOAP_CLIENT).
 
 ## Partie REST
 
-- Lancer le serveur REST dans le dossier WCF_REST
+### Utilisation
 
-### Endpoints GET
+- Lancer le serveur REST [ici](./WCF_REST).
+- Tester les endpoints.
+
+#### Endpoints GET
 
 Sur Postman, faire une requête GET sur les endpoints suivants :
 
-#### Add
+##### Add
 
 ```
 http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/add?a=20&b=20
