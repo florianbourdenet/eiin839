@@ -1,15 +1,17 @@
 # TD6 - Rendu
 
-## Pour tester le serveur SOAP
+## Partie SOAP
 
-- Lancer le serveur SOAP dans le dossier WCF_SOAP
-- Lancer le client SOAP dans le dossier WCF_SOAP_CLIENT
+- Lancer le serveur SOAP [ici](./WCF_SOAP).
+- Lancer la solution de test présente dans le client SOAP [ici](./WCF_SOAP).
 
-## Pour tester le serveur REST
+## Partie REST
 
 - Lancer le serveur REST dans le dossier WCF_REST
 
 ### Endpoints GET
+
+Sur Postman, faire une requête GET sur les endpoints suivants :
 
 #### Add
 
@@ -38,12 +40,16 @@ http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/divide?
 
 ### Endpoints POST
 
+Sur Postman, mettre dans le corps de la requête les paramètres ci-dessous :
+
 ```json
 {
     "a": 20,
     "b": 20
 }
 ```
+
+Puis faire une requête POST sur les endpoints suivants :
 
 #### Add
 
