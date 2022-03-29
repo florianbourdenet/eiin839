@@ -3,7 +3,7 @@
 ## Partie SOAP
 
 - Lancer le serveur SOAP [ici](./WCF_SOAP).
-- Lancer la solution de test présente dans le client SOAP [ici](./WCF_SOAP).
+- Lancer la solution de test présente dans le client SOAP [ici](./WCF_SOAP_CLIENT).
 
 ## Partie REST
 
