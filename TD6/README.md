@@ -85,8 +85,13 @@ http://localhost:8733/Design_Time_Addresses/MathsLibrary/MathsOperations/divide
 4/ Optional. Try different ResponseFormat and BodyStyle to compare the results you get.
 
 - ResponseFormat : par défaut, la réponse est donnée en XML. Cependant, lorsque le paramètre `WebMessageFormat.Json` est donné, la réponse devient du JSON.
+- BodyStyle :
+    - Bare : les demandes et les réponses ne sont pas encapsulées
+    - Wrapped : les demandes comme les réponses sont encapsulées
+    - WrappedRequest : les demandes sont encapsulées, les réponses ne le sont pas
+    - WrappedResponse : les réponses sont encapsulées, les demandes ne le sont pas
 
 5/ Optional. Change the method of one of the OperationContract to POST. It will not work directly with your browser since typing an URL is a GET request, but you should be able to communicate with the server by using Postman.
 
-cf la partie Endpoints POST
+- cf. la partie Endpoints POST
 
